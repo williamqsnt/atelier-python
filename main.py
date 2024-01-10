@@ -1,14 +1,14 @@
 # Effectuer une addition
 def addition(a, b):
-    return a + b
+    return round(a + b,2)
 
 # Effectuer une soustraction
 def soustraction(a, b):
-    return a - b
+    return round(a - b,2)
 
 # Effectuer une multiplication
 def multiplication(a, b):
-    return a * b
+    return round(a * b,2)
 
 # Effectuer une division
 def division(a, b):
