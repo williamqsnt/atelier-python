@@ -13,7 +13,7 @@ def multiplication(a, b):
 # Effectuer une division
 def division(a, b):
     if b != 0:
-        return a / b
+        return round(a / b,2)
     else:
         return "Erreur: Division par zéro"
 
