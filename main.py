@@ -1,25 +1,27 @@
-# Fonction pour calculer une addition
+# Effectuer une addition
 def addition(a, b):
     return a + b
 
-# Fonction pour calculer une soustraction
+# Effectuer une soustraction
 def soustraction(a, b):
     return a - b
 
-
-
+# Effectuer une multiplication
 def multiplication(a, b):
     return a * b
 
+# Effectuer une division
 def division(a, b):
     if b != 0:
         return a / b
     else:
         return "Erreur: Division par zéro"
 
+# Effectuer le calcul 
 def calculatrice():
-    print("Calculatrice de base en Python")
+    print("Calculatrice")
     while True:
+        # Mise en place d'un try except pour gérer les erreurs
         try:
             a = float(input("Entrez le premier nombre: "))
             operation = input("Entrez l'opération (+, -, *, /): ")
@@ -38,7 +40,6 @@ def calculatrice():
                 continue
 
             print("Résultat: ", resultat)
-
         except ValueError:
             print("Erreur: Veuillez entrer des nombres valides.")
 
